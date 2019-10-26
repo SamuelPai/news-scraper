@@ -5,8 +5,8 @@ var cheerio = require("cheerio");
 var axios = require("axios");
 var db = require("../models");
 
-
-mongoose.connect("mongodb://localhost/samscraper", { useNewUrlParser: true });
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/samscraper";
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 
 
