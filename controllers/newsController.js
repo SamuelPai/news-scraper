@@ -6,7 +6,7 @@ var axios = require("axios");
 var db = require("../models");
 
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/samscraper";
-mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
+mongoose.connect(MONGODB_URI);
 
 
 
