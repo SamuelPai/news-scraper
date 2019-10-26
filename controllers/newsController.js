@@ -67,7 +67,7 @@ router.get("/articles", function (req, res) {
         }
         res.render("articles", hbsObject)
         // res.json(data);
-        console.log(data);
+        console.log(data.length);
     })
 })
 
