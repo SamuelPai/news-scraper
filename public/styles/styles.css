@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#scrapeBtn {
+    margin-top: 200px;
+    width: 1000px;
+    height: 400px;
+    font-size: 50px;
+    border: 2px solid red; 
+    background-color: lightgray;
+    color: red;
+    border-radius: 30px;
+}
