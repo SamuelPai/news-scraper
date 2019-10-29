@@ -1,12 +1,10 @@
 var express = require("express");
 var router = express.Router();
-var mongoose = require("mongoose");
 var cheerio = require("cheerio");
 var axios = require("axios");
 var db = require("../models");
 
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/samscraper";
-mongoose.connect(MONGODB_URI);
+
 
 
 
